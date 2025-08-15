@@ -1,4 +1,5 @@
 # INPUT EXPECTED
+
 # VARIABLE:PARAMETER,VARIABLE:PARAMETER
 
 for var in $(echo $1 | sed -e 's/,/ /g') ; do
